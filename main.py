@@ -251,13 +251,6 @@ if __name__ == '__main__':
         b[iwp] = A[iwp, iwp] * WZMACNIACZ * wart_war_brzeg
         A[iwp, iwp] = A[iwp, iwp] * WZMACNIACZ
 
-    if WB[0]['typ'] == 'N':
-        print('Nie zaimplementowano jeszcze. Zad.dom')
-
-    if WB[1]['typ'] == 'N':
-        print('Nie zaimplementowano jeszcze. Zad.dom')
-
-
     ## 2.d) Rozwiązanie problemu
     # Rozwiązanie liniowego układu równań
     u = np.linalg.solve(A, b)
